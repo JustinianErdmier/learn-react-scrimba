@@ -3,20 +3,12 @@
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
-import './index.css';
+import '../index.css';
 
-export default function MainContent() {
+export default function Main() {
     return (
         <>
-            <h1 className='title'>Reasons I'm excited to learn React</h1>
-            <ol>
-                <li>
-                    It's a popular library.
-                </li>
-                <li>
-                    It's easy to use.
-                </li>
-            </ol>
+            <h1>Main body goes here.</h1>
         </>
     );
 }

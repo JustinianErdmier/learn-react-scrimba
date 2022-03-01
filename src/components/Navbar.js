@@ -3,14 +3,12 @@
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
-import './index.css';
+import '../index.css';
 
-function Footer() {
+export default function Navbar() {
     return (
-        <footer>
-            <p>&copy; 2022 Justinian Codes. All rights reserved.</p>
-        </footer>
+        <>
+            <h1>Navbar goes here.</h1>
+        </>
     );
 }
-
-export default Footer;

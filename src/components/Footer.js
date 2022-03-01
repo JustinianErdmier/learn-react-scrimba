@@ -1,16 +1,15 @@
 /**************************************************************************************************
- * Copyright (c) 2022-2022 Justin Erdmier - All Rights Reserved                                   *
+ * Copyright (c) 2022 Justin Erdmier - All Rights Reserved                                        *
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
-import Main   from './components/Main';
-import Navbar from './components/Navbar';
+import '../index.css';
 
-export default function App() {
+export default function Footer() {
     return (
-        <>
-            <Navbar />
-            <Main />
-        </>
+        <footer>
+            <p>&copy; 2022 Justinian Codes. All rights reserved.</p>
+        </footer>
     );
 }
+

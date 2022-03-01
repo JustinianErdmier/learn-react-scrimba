@@ -3,10 +3,10 @@
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
-import logo from './images/logo.svg';
-import './index.css';
+import logo from '../images/logo.svg';
+import '../index.css';
 
-function Header() {
+export default function Header() {
     return (
         <header>
             <nav className='nav'>
@@ -21,4 +21,3 @@ function Header() {
     );
 }
 
-export default Header;
