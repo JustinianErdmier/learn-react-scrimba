@@ -1,8 +1,6 @@
 /**************************************************************************************************
  * Copyright (c) 2022-2022 Justin Erdmier - All Rights Reserved                                   *
  * Licensed under the MIT License - See LICENSE in repository root.                               *
- * index.css  created by  jerdmier                                                                *
- * Last modified: 3/1/22, 2:38 PM  by  jerdmier                                                   *
  **************************************************************************************************/
 
 body {
@@ -17,4 +15,28 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
                  monospace;
+    }
+
+.app-logo {
+    height:     60px;
+    margin-top: 1rem;
+    }
+
+.title {
+    margin: 0;
+    }
+
+.nav {
+    align-items:     center;
+    display:         flex;
+    justify-content: space-between;
+    }
+
+.nav-items {
+    display:    flex;
+    list-style: none;
+    }
+
+.nav-items > li {
+    padding: 10px;
     }
