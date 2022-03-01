@@ -3,8 +3,8 @@
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
+import logo from './images/logo.svg';
 import './index.css';
-import logo from './logo.svg';
 
 function Header() {
     return (
