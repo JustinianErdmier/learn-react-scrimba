@@ -3,6 +3,7 @@
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
+import React from 'react';
 import Main   from './components/Main';
 import Navbar from './components/Navbar';
 

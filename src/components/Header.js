@@ -3,6 +3,7 @@
  * Licensed under the MIT License - See LICENSE in repository root.                               *
  **************************************************************************************************/
 
+import React from 'react';
 import logo from '../images/logo.svg';
 import '../index.css';
 
